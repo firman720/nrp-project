@@ -1,0 +1,17 @@
+{
+  "name": "nrp",
+  "version": "1.0.0",
+  "description": "nrp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nrp"
+  ],
+  "author": "nama kalian",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

@@ -1,0 +1,8 @@
+RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . /autonumber
+RewriteRule ^form/?$ index.php?p=form [NC,L]
+RewriteRule ^provinsi/?$ index.php?p=provinsi [NC,L]
+
+RewriteRule ^warga/([a-zA-Z0-9-\s]+)/?$ index.php?id=$1 [NC,L]
